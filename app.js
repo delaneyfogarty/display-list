@@ -4,6 +4,8 @@ import { gemstones } from './gemstone-data.js';
 import { renderGemstones } from './render-gemstones.js';
 import { bigThree } from './zodiac-data.js';
 import { renderBigThree } from './render-bigthree.js';
+import { mySisters } from './sister-data.js';
+import { renderSisters } from './render-sisters.js';
 
 
 
@@ -26,6 +28,13 @@ for (let i of bigThree) {
   const zodiacEl = renderBigThree(i);
 
   bigThreeListEl.append(zodiacEl);
+}
+
+const sistersListEl = document.querySelector('.sister-list');
+for (let i of mySisters) {
+  const sistersEl = renderSisters(i);
+
+  sistersListEl.append(sistersEl);
 }
 
 
