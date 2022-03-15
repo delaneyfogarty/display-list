@@ -115,5 +115,14 @@ img {
     width: 200px;
 
 }
-
+.candy {
+    padding: 20px;
+    box-shadow: 5px 5px -7px #000000;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    height: 200px; 
+}
 
