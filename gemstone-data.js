@@ -10,8 +10,8 @@ export const gemstones = [
 		welcomes: 'Protection'
 	},
 	{
-		name: 'Moon Stone',
-		type: 'Silicate',
-		welcomes: 'Compassion'
+		name: 'Labradorite',
+		type: 'Stone',
+		welcomes: 'Transformation'
 	}
 ];
