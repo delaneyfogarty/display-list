@@ -7,11 +7,11 @@ export function renderGemstones(gemstone) {
 
 	gemstonesEl.classList.add('gemstone');
 
-	gemstonesEl.textContent = gemstone;
-	nameEl.textContent = gemstone.name;
-	typeEl.textContent = gemstone.type;
-	welcomesEl.textContent = gemstone.welcomes;
-	imgEl.src = `assets/${gemstone}.jpg`;
+
+	nameEl.textContent = `Name: ${gemstone.name}`;
+	typeEl.textContent = `Type: ${gemstone.type}`;
+	welcomesEl.textContent = `Welcomes: ${gemstone.welcomes}`;
+	imgEl.src = `assets/${gemstone.name}.jpg`;
 
 	gemstonesEl.append(nameEl, typeEl, welcomesEl, imgEl);
 	return gemstonesEl;
