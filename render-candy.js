@@ -8,4 +8,4 @@ export function renderCandy(candyData) {
 
 	candyEl.append(nameEl, imgEl);
 	return candyEl;
-};
+}
