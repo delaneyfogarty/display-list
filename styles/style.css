@@ -115,14 +115,39 @@ img {
     width: 200px;
 
 }
-.candy {
-    padding: 20px;
-    box-shadow: 5px 5px -7px #000000;
+
+.candy-list {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 20px;
     align-items: center;
-    flex-direction: column;
-    height: 200px; 
+}
+.candy {
+    box-shadow: var(--shadow);
 }
 
+.gemstone-list {
+    display: flex;
+    flex-direction: row;
+}
+.gemstones {
+    box-shadow: var(--shadow);
+}
+
+.bigthree-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.bigThree {
+    box-shadow: var(--shadow);
+}
+
+.sister-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.sisters {
+    box-shadow: var(--shadow);
+}
