@@ -3,7 +3,7 @@ export function renderBigThree(zodiacData) {
 	const signEl = document.createElement('h3');
 	const planetEl = document.createElement('p');
 	const placementEl = document.createElement('p');
-	const attributesListEl = document.createElement('ul')
+	const attributesListEl = document.createElement('ul');
 	const imgEl = document.createElement('img');
 
 	bigThreeEl.classList.add('.bigThree');
@@ -18,12 +18,12 @@ export function renderBigThree(zodiacData) {
 
 		const attributeEl = document.createElement('li');
 		attributeEl.textContent = i;
-		console.log(i);
+
 
 		attributesListEl.append(attributeEl);
 	}
 
-	bigThreeEl.append(signEl, planetEl, placementEl, imgEl, attributesListEl)
+	bigThreeEl.append(signEl, planetEl, placementEl, imgEl, attributesListEl);
 
 	return bigThreeEl;
 }
